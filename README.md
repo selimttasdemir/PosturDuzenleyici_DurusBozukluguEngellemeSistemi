@@ -23,17 +23,6 @@ Bu proje, kötü duruş alışkanlıklarını düzeltmeye yardımcı olmak amac�
 
 ---
 
-## 📂 Proje Dosya Yapısı
-
-```plaintext
-📁 Core/
- ├—— main.c             → Ana uygulama mantığı
- ├—— mpu6050.c          → MPU6050 başlatma ve veri okuma fonksiyonları
- └—— mpu6050.h          → MPU6050 yapı tanımları ve fonksiyon prototipleri
-```
-
----
-
 ## 🔧 Kurulum ve Kullanım
 
 1. STM32CubeIDE ile yeni bir STM32F4 projesi oluşturun.
@@ -60,9 +49,6 @@ float angle_x = atan2(ax, sqrt(ay * ay + az * az)) * 180.0 / 3.141592;
 ---
 
 ## 📷 Ekran Görüntüsü / Donanım Kurulumu
-
-> Aşağıya sistemin çalışır halini gösteren bir görsel ekleyebilirsiniz.
-> Örn: bağlantı şeması, sensör montajı, titreşim motoru konumu vb.
 
 ---
 
